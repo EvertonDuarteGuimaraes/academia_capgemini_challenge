@@ -1,6 +1,6 @@
 import java.util.Collections;
 
-public class CallResponse extends Automatic  {
+public class CallResponse extends Automatic {
 	public void questionOne(int numberOfTestes) {
 		for(int i = 0; i < numberOfTestes; i++) {
 			System.out.print("Dada uma lista " + this.randomValues(i));
