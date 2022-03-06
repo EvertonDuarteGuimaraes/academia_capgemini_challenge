@@ -2,21 +2,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class CallResponse {
-	public Median doMedianOfTheExampleList;
-	public DiferenceBetween doMatchsOfTheExampleList = new DiferenceBetween();
+	public Median doMedianOf;
+	public DifferenceBetween doMatchsOf = new DifferenceBetween();
 	public EncriptText doEncriptOf = new EncriptText();
 	
-	public int call(ArrayList<Integer> inputList) {
+	public int callMedian(ArrayList<Integer> inputList) {
 		Collections.sort(inputList);
-		doMedianOfTheExampleList = new Median(inputList);
-		return doMedianOfTheExampleList.calc();
+		doMedianOf = new Median(inputList);
+		return doMedianOf.calc();
 	}
 	
-	public int call(ArrayList<Integer> inputList, int diferece) {
-		return doMatchsOfTheExampleList.calc(inputList, diferece);
+	public int calldifferencesMatchs(ArrayList<Integer> inputList, int diferece) {
+		return doMatchsOf.calc(inputList, diferece);
 	}
 	
-	public String call(String textToEncript) {
+	public String callEncript(String textToEncript) {
 		return doEncriptOf.calc(textToEncript);
 	}
 }
