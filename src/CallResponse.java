@@ -1,25 +1,22 @@
+import java.util.ArrayList;
 import java.util.Collections;
 
-public class CallResponse extends Automatic {
-	public void questionOne() {
-		listForQuestionOne();
-		
-		System.out.print("Dada uma lista [9, 2, 1, 4, 6]" );
-		System.out.println(", se ordenarmos teremos a mediana: " + doMedianOfTheExampleList.calc());
+public class CallResponse {
+	public Median doMedianOfTheExampleList;
+	public DiferenceBetween doMatchsOfTheExampleList = new DiferenceBetween();
+	public EncriptText doEncriptOf = new EncriptText();
+	
+	public int call(ArrayList<Integer> inputList) {
+		Collections.sort(inputList);
+		doMedianOfTheExampleList = new Median(inputList);
+		return doMedianOfTheExampleList.calc();
 	}
 	
-	public void questionOne(String inputList) {
-		listForQuestionOne(inputList);
-		
-		System.out.print("Para esta temos: " + doMedianOfTheExampleList.calc());
+	public int call(ArrayList<Integer> inputList, int diferece) {
+		return doMatchsOfTheExampleList.calc(inputList, diferece);
 	}
 	
-	public void questionTwo() {
-		System.out.print("Dada uma lista [1, 5, 3, 4, 2]" );
-		System.out.println(", teremos: " + listForQuestionTwo() + " pares de diferença");
-	}
-	
-	public void questionThree () {
-		System.out.println("Dado o texto \"tenha um bom dia\", temos sua criptografia: " + textForQuestionThree());
+	public String call(String textToEncript) {
+		return doEncriptOf.calc(textToEncript);
 	}
 }

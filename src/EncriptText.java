@@ -5,10 +5,6 @@ public class EncriptText {
 	public ArrayList<Character> characterList = new ArrayList<>();
 	public String EncriptedText = "";
 	
-	public EncriptText(String textToEncript) {
-		this.textWithoutSpaces = textToEncript.replaceAll("\\s+","");
-	}
-	
 	public void breakTheText() {
 		char[] textBreaked = this.textWithoutSpaces.toCharArray();
 		for(int i  = 0; i < Math.round(Math.sqrt(textBreaked.length)); i++) {
@@ -23,7 +19,9 @@ public class EncriptText {
 		}
 	}
 	
-	public String showEncript() {
+	public String calc(String textToEncript) {
+		this.textWithoutSpaces = textToEncript.replaceAll("\\s+","");
+		breakTheText();
 		for(int i = 0; i < this.characterList.size(); i++) {
 			this.EncriptedText += characterList.get(i);
 		}

@@ -6,7 +6,6 @@ public class Median {
 	
 	public Median(ArrayList<Integer> numbers) {
 		this.numbers = new ArrayList(numbers);
-		Collections.sort(this.numbers);
 	}
 	
 	public Integer calc() { 
