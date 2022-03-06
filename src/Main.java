@@ -6,17 +6,8 @@ public class Main {
 		OptionsMenu start = new OptionsMenu();
 		//start.options();
 		
-		ArrayList<Integer> l = new ArrayList<>();
-		
-		l.add(1);
-		l.add(5);
-		l.add(3);
-		l.add(4);
-		l.add(2);
-		
-		SpaceBetween a = new SpaceBetween();
-		
-		
-		System.out.println(a.calcManyDiferecs(l, 4));
+		EncriptText a = new EncriptText("tenha um bom dia");
+		a.breakTheText();
+		System.out.println(a.showEncript());
 	}
 }

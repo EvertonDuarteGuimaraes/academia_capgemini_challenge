@@ -1,10 +1,15 @@
 import java.util.Collections;
 
 public class CallResponse extends Automatic {
-	public void questionOne(int numberOfTestes) {
-		for(int i = 0; i < numberOfTestes; i++) {
-			System.out.print("Dada uma lista " + this.randomValues(i));
-			System.out.println(" , se ordenarmos teremos a mediana: " + this.calcMedian(this.randomValues(i)) + "\n");
-		}
+	public void questionOne() {
+		listForQuestionOne();
+		
+		System.out.print("Dada uma lista [9, 2, 1, 4, 6] " );
+		System.out.println(" , se ordenarmos teremos a mediana: " + doMedianOfTheExampleList.calc());
+	}
+	
+	public void questionTwo() {
+		System.out.print("Dada uma lista [1, 5, 3, 4, 2]" );
+		System.out.println(", teremos: " + listForQuestionTwo() + " pares de diferença");
 	}
 }
