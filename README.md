@@ -24,4 +24,4 @@ public int callMedian(Array do tipo Integer) {
 public int callDifferences(Array do tipo Integer, constante do tipo int) {
   /* Contém o método da classe DiffereceBetween, que recebe uma lista inteiros e também uma constante, então retorna quantos valores na lista
   possuem uma diferença entre si igual a constante recebecida */
-}
+
