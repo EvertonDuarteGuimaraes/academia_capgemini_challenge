@@ -12,7 +12,7 @@ public class CallResponse {
 		return doMedianOf.calc();
 	}
 	
-	public int calldifferencesMatchs(ArrayList<Integer> inputList, int diferece) {
+	public int calldifferences(ArrayList<Integer> inputList, int diferece) {
 		return doMatchsOf.calc(inputList, diferece);
 	}
 	

@@ -15,7 +15,7 @@ public class Main {
 		String questionThreeText = "Olá mundo";
 		
 		System.out.println("Saída da primeira questão: " + responseto.callMedian(questionOneList));
-		System.out.println("Saída da segunda questão: " + responseto.calldifferencesMatchs(questionTwoList, questionTwoDiferece));
+		System.out.println("Saída da segunda questão: " + responseto.calldifferences(questionTwoList, questionTwoDiferece));
 		System.out.println("Saída da terceira questão: " + responseto.callEncript(questionThreeText));
 	}
 }
