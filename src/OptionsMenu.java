@@ -12,6 +12,9 @@ public class OptionsMenu {
 		switch(Integer.parseInt(input.nextLine())) {
 		  case 1:
 			response.questionOne();
+			System.out.println("Insira um novo valor para representar uma lista, exemplo \"123\" para \"[1, 2, 3]\"");
+			String newList = input.nextLine();
+			response.questionOne(newList);
 		    break;
 		  case 2:
 			response.questionTwo();

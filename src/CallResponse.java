@@ -4,8 +4,14 @@ public class CallResponse extends Automatic {
 	public void questionOne() {
 		listForQuestionOne();
 		
-		System.out.print("Dada uma lista [9, 2, 1, 4, 6] " );
-		System.out.println(" , se ordenarmos teremos a mediana: " + doMedianOfTheExampleList.calc());
+		System.out.print("Dada uma lista [9, 2, 1, 4, 6]" );
+		System.out.println(", se ordenarmos teremos a mediana: " + doMedianOfTheExampleList.calc());
+	}
+	
+	public void questionOne(String inputList) {
+		listForQuestionOne(inputList);
+		
+		System.out.print("Para esta temos: " + doMedianOfTheExampleList.calc());
 	}
 	
 	public void questionTwo() {

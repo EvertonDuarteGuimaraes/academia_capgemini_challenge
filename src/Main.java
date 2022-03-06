@@ -1,6 +1,3 @@
-import java.util.Random;
-import java.util.ArrayList;
-
 public class Main {
 	public static void main(String[] args) {
 		OptionsMenu start = new OptionsMenu();
