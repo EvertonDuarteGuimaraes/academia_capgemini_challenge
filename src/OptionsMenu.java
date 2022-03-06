@@ -17,10 +17,11 @@ public class OptionsMenu {
 			response.questionTwo();
 		    break;
 		  case 3:
-			    // code block
+			response.questionThree();
 			    break;
 		  default:
-		    // code block
+			System.out.println("Escolha apenas 1, 2 ou 3.");
+		    break;
 		}
 	}
 }

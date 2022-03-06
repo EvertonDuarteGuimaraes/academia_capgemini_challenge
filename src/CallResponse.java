@@ -12,4 +12,8 @@ public class CallResponse extends Automatic {
 		System.out.print("Dada uma lista [1, 5, 3, 4, 2]" );
 		System.out.println(", teremos: " + listForQuestionTwo() + " pares de diferença");
 	}
+	
+	public void questionThree () {
+		System.out.println("Dado o texto \"tenha um bom dia\", temos sua criptografia: " + textForQuestionThree());
+	}
 }
