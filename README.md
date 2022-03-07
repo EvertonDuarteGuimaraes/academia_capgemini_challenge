@@ -8,7 +8,7 @@ Para fazer o primeiro teste, basta iniciar o Run As Java Application, e então o
 2. Na linha 12, temos "Collections.addAll(questionTwoList, 1, 5, 3, 4, 2);" como a lista e "int questionTwoDiferece = 2;" como diferença, a será saída 3.
 3. Na linha 15, temos "String questionThreeText = "tenha um bom dia";" com a saída taoa eum nmd hbi.
 
-Mudando qualquer das entradas já terá uma saída diferente para a respectiva questão 1, 2 ou 3, por exemplo "questionTwoDiferece = 1;" a saída da questão 2 passa a ser "4" e "questionThreeText = "ola mundo";" a saída da questão 3 será "omd luo an".
+Mudando qualquer das entradas já terá uma saída diferente para a respectiva questão 1, 2 ou 3, por exemplo "questionTwoDiferece = 1;", a saída da questão 2 passa a ser "4" enquanto que "questionThreeText = "ola mundo";", a saída da questão 3 será "omd luo an".
 
 
 Essas respostas são acessadas atraves da classe "CallResponse responseTo = new CallResponse();" previamente iniciada no main
