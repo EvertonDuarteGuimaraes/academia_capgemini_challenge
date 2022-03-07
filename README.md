@@ -54,3 +54,8 @@ public String callEncript(String textoParaSerEncriptado)  {
   
   
 3. EncriptText, recebe uma String text, na qual um regex substitui os espaços em branco por linhas vazias atribuindo o texto a um atributo da classe e logo chama outro método "breakTheText();", que é responsável por passar cada caracter presente no this.text que representa o texto sem espaços para um vetor de tipo "char", na sequencia, ainda no método "breakTheText();" intera sobre o vetor "char[] textBreaked" até que complete um número de interações igual a raiz quadrada de seu tamanho arredondada para cima, dessa maneira, o número de colúnas criadas será sempre igual, e para cada linha ser escrita com o tamanho devidamente igual ao número de colunas, um segundo for intera sobre o tamanho do mesmo vetor, porém o salto de seu incremento "j+= Math.round(Math.sqrt(textBreaked.length" faz com que cada vez busque um elemento que represente o início da linha abaixo, como se a palavra fosse escrita em um quadrada perfeito, para que o salto do segundo for não alcance um ponto inacecível do vetor, uma condição lógica o para antes que ele possa escrever em uma linha inalcançável para uma determinada coluna, cada interação adiciona a um ArrayList<Character> contito na classe EncriptText. Após isso, os caracteres já estão devidamente posicionados e de volta ao método "calc();" da classe, um for intera sobre o ArrayList<Character> preenchido e concatena cada valor a uma String que retorna o texto criptografado da maneira esperada, com éxito para os exemplos de "taoa eum nmd hbi" e "omd luo an".
+  
+## Tecnologias utilizadas:
+1. java 11
+2. Eclipse(IDE)
+  
