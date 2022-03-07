@@ -9,6 +9,7 @@ Para fazer o primeiro teste, basta iniciar o Run As Java Application, e então o
 3. Na linha 15, temos "String questionThreeText = "tenha um bom dia";" com a saída taoa eum nmd hbi.
 Mudando qualquer das entradas já será recebido um valor diferente para a respectiva questão 1, 2 ou 3.
 
+
 Essas respostas são acessadas atraves da classe "CallResponse responseTo = new CallResponse();" previamente iniciada no main
 
 
@@ -18,9 +19,15 @@ Aqui temos iniciados os objetos:
 Desses podendos acessar o método "calc();" de cada um para executar a tarefa necessária que responde uma das questões.
 
 Eles são acessados no main pelos métodos:
+
+
 public int callMedian(Array do tipo Integer) {
+
+
   // Contém o método da classe Median, que recebe uma lista de inteiros e retorna um inteiro esperado como uma mediana para um lista ordenada.
 }
+
+
 public int callDifferences(Array do tipo Integer, constante do tipo int) {
   /* Contém o método da classe DiffereceBetween, que recebe uma lista inteiros e também uma constante, então retorna quantos valores na lista
   possuem uma diferença entre si igual a constante recebecida */
