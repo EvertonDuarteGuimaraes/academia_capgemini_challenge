@@ -23,8 +23,8 @@ Eles são acessados no main pelos métodos:
 
 public int callMedian(Array do tipo Integer) {
 
-
   // Contém o método da classe Median, que recebe uma lista de inteiros e retorna um inteiro esperado como uma mediana para um lista ordenada.
+  
 }
 
 
